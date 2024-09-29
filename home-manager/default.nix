@@ -11,5 +11,6 @@
     ./tint2.nix
     ./git.nix
     ./openbox/openbox.nix
+		./packages.nix
   ];
 }
