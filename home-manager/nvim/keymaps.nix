@@ -35,9 +35,16 @@
 				action = "<Esc>o";
 			}
 			{
+				# map ; to : for ease of use
 				mode = [ "n" "v" ];
 				key = ";";
 				action = ":";
+			}
+			{
+				# map ctrl+o to kk
+				mode = "i";
+				key = "kk";
+				action = "<C-o>";
 			}
 		];
   };
