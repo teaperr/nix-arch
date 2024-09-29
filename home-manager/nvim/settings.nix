@@ -3,7 +3,6 @@
 {
   programs.nixvim = {
     opts = {
-
       number = true;
       relativenumber = true;
 
@@ -17,13 +16,13 @@
 
       scrolloff = 10;
 
-      cursorline = true;
-
       mouse = "a";
 
       linebreak = true;
 
       swapfile = false;
+			
+			timeoutlen = 300;
     };
   };
 }
