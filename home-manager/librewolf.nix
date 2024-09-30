@@ -12,23 +12,6 @@
       "browser.download.viewableInternally.typeWasRegistered.avif" = true;
       "browser.download.viewableInternally.typeWasRegistered.webp" = true;
       "browser.newtabpage.activity-stream.section.highlights.includePocket" = false;
-      "browser.newtabpage.pinned" = [
-        {
-          url = "https://google.com";
-          label = "@google";
-          searchTopSite = true;
-        }
-      ];
-      "browser.policies.runOncePerModification.extensionsInstall" = [
-        "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
-      ];
-      "browser.policies.runOncePerModification.extensionsUninstall" = [
-        "google@search.mozilla.org"
-        "bing@search.mozilla.org"
-        "amazondotcom@search.mozilla.org"
-        "ebay@search.mozilla.org"
-        "twitter@search.mozilla.org"
-      ];
       "browser.policies.runOncePerModification.setDefaultSearchEngine" = "DuckDuckGo";
       "browser.protections_panel.infoMessage.seen" = true;
       "browser.startup.homepage" = "chrome://browser/content/blanktab.html";
