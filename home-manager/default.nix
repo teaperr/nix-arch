@@ -13,5 +13,6 @@
     ./git.nix
     ./openbox/openbox.nix
 		./packages.nix
+		./librewolf.nix
   ];
 }
