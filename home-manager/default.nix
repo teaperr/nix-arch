@@ -3,6 +3,7 @@
 {
   imports = [
     ./zsh.nix
+		./yazi.nix
     ./nvim
     ./alacritty.nix
     ./tmux.nix

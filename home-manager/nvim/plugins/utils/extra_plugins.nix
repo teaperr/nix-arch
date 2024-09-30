@@ -1,5 +1,7 @@
-{ config, pkgs, ... }:
+{pkgs, ...}:
+
 {
-  programs.nixvim = {
-  };
+  programs.nixvim.extraPlugins = with pkgs.vimPlugins; [
+    nvim-web-devicons
+  ];
 }

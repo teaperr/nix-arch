@@ -1,6 +1,5 @@
 # TODO
 
-- add highlight on yank
-- add lsps
 - add obsidian 
-- telescope config
+- add image support
+- sort out cmp
