@@ -27,6 +27,7 @@
       "extensions.pictureinpicture.enable_picture_in_picture_overrides" = true;
       "extensions.webcompat.perform_injections" = true;
       "extensions.webcompat.perform_ua_overrides" = true;
+			"identity.fxaccounts.enabled" = true;
     };
   };
 }
