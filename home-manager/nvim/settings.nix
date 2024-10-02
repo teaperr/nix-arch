@@ -14,6 +14,8 @@
       breakindent = true;
       expandtab = false;
 
+			ignorecase = true;
+
       scrolloff = 10;
 
       mouse = "a";
