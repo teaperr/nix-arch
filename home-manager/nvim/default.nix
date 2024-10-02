@@ -10,6 +10,7 @@
 
     # Themes
     ./plugins/themes/default.nix
+		./plugins/themes/transparent.nix
 
     # Completion
     ./plugins/cmp/cmp.nix
