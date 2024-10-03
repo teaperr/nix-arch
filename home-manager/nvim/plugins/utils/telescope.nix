@@ -6,6 +6,18 @@
 			extensions = {
 				file-browser.enable = true;
 				fzf-native.enable = true;
+				media-files = {
+					enable = true;
+					settings.find_cmd = "rg";
+					dependencies = {
+						fontpreview.enable = true;
+						ffmpegthumbnailer.enable = true;
+						imageMagick.enable = true;
+						pdftoppm.enable = true;
+						epub-thumbnailer.enable = true;
+						chafa.enable = true;
+					};
+				};
 			};
 			keymaps = {
 				"<leader><space>" = {

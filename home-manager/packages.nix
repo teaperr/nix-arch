@@ -1,7 +1,10 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 
 {
 	home.packages = with pkgs; [
+		haskellPackages.greenclip
+		ripgrep
+		clipman
 		kicad
 		ueberzugpp
 		arandr

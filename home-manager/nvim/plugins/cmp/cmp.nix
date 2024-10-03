@@ -1,5 +1,3 @@
-{ config, pkgs, ... }:
-
 {
   programs.nixvim = {
     plugins = {
@@ -39,14 +37,14 @@
         # Key bindings for nvim-cmp
         mapping = {
           # Navigate to next item in the completion menu
-          "<C-n>" = "cmp.mapping.select_next_item()";
+          "<Tab>" = "cmp.mapping.select_next_item()";
           # Navigate to previous item in the completion menu
-          "<C-p>" = "cmp.mapping.select_prev_item()";
+          "<S-Tab>" = "cmp.mapping.select_prev_item()";
           # Scroll documentation
           "<C-b>" = "cmp.mapping.scroll_docs(-4)";
           "<C-f>" = "cmp.mapping.scroll_docs(4)";
           # Confirm the completion item
-          "<C-y>" = "cmp.mapping.confirm { select = true }";
+          "<Enter>" = "cmp.mapping.confirm { select = true }";
           # Manually trigger completion
           "<C-Space>" = "cmp.mapping.complete()";
           

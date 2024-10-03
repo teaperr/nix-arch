@@ -1,5 +1,3 @@
-{ config, pkgs, ...}:
-
 {
   imports = [
     ./zsh.nix
@@ -14,5 +12,7 @@
     ./openbox/openbox.nix
 		./packages.nix
 		./librewolf.nix
+		./services
+		./greenclip.nix
   ];
 }

@@ -1,5 +1,3 @@
-{ config, pkgs, ... }:
-
 {
   home.file.".config/openbox/autostart".text = ''
 	if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
@@ -23,6 +21,7 @@
 	G_SLICE=always-malloc
 	tint2 &
 	volumeicon &
+	greenclip daemon &
 	kdeconnect-indicator &
 	alacritty &
 	kdeconnect-cli --refresh &
