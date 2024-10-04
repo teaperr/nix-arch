@@ -1,8 +1,13 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 {
   programs.nixvim = {
 		plugins.telescope = {
 			enable = true;
+			settings = {
+				defaults = {
+					path_display = [ "truncate" ];
+				};
+			};
 			extensions = {
 				file-browser.enable = true;
 				fzf-native.enable = true;
