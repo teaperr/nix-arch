@@ -37,6 +37,10 @@
 					action = "find_files";
 					options.desc = "Find files";
 				};
+				"<leader>e" ={
+					action = "file_browser";
+					options.desc = "File Browser";
+				};
 			};
 		};
   };
